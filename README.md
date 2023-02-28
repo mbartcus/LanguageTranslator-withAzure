@@ -21,10 +21,10 @@ To run the program for detecting the language you need to:
 ## Setting the program
 To run the python code you also need to create a hidden .env file in the same directory that contains the following information. If you use a git repository don't forget to add this file to the .gitignore file in order to hide the key from other users.
 
-API_KEY = <key>
-ENDPOINT = https://api.cognitive.microsofttranslator.com
-LOCATION = francecentral
-PATH_DETECT = /detect
+- API_KEY = <key>
+- ENDPOINT = https://api.cognitive.microsofttranslator.com
+- LOCATION = francecentral
+- PATH_DETECT = /detect
 
 ### Setting Permanent Environment Variables in Bash
 $ nano /home/user/.bashrc
